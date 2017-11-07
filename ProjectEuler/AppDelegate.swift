@@ -14,8 +14,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        let s1 = Solution1()
-        print(s1.run())
+        let solutions:[Solution] = [Solution1(), Solution2()]
+        solutions.forEach { print($0.run()) }
         return true
     }
 }
