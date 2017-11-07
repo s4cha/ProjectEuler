@@ -12,6 +12,7 @@
 		992786641FB2031B0065C3C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 992786621FB2031B0065C3C0 /* LaunchScreen.storyboard */; };
 		9927866C1FB2032E0065C3C0 /* Solution1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9927866B1FB2032E0065C3C0 /* Solution1.swift */; };
 		99DD05EB1FB2068D008AA910 /* Solution2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DD05EA1FB2068D008AA910 /* Solution2.swift */; };
+		99DD05ED1FB20B70008AA910 /* Solution3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DD05EC1FB20B70008AA910 /* Solution3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		992786651FB2031B0065C3C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9927866B1FB2032E0065C3C0 /* Solution1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution1.swift; sourceTree = "<group>"; };
 		99DD05EA1FB2068D008AA910 /* Solution2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution2.swift; sourceTree = "<group>"; };
+		99DD05EC1FB20B70008AA910 /* Solution3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				992786591FB2031B0065C3C0 /* AppDelegate.swift */,
 				9927866B1FB2032E0065C3C0 /* Solution1.swift */,
 				99DD05EA1FB2068D008AA910 /* Solution2.swift */,
+				99DD05EC1FB20B70008AA910 /* Solution3.swift */,
 				992786601FB2031B0065C3C0 /* Assets.xcassets */,
 				992786621FB2031B0065C3C0 /* LaunchScreen.storyboard */,
 				992786651FB2031B0065C3C0 /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				9927866C1FB2032E0065C3C0 /* Solution1.swift in Sources */,
 				9927865A1FB2031B0065C3C0 /* AppDelegate.swift in Sources */,
+				99DD05ED1FB20B70008AA910 /* Solution3.swift in Sources */,
 				99DD05EB1FB2068D008AA910 /* Solution2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
