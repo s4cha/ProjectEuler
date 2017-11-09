@@ -13,14 +13,6 @@ import Foundation
 
 struct Solution3: Solution {
     
-    func isPrime(_ number:Int) -> Bool {
-        let squareRoot = Int(sqrt(Double(number)))
-        for i in 2..<squareRoot where number % i == 0 {
-            return false
-        }
-        return true
-    }
-    
     func run() -> Int {
         let number = 600851475143
         var i = Int(sqrt(Double(number)))
@@ -33,5 +25,27 @@ struct Solution3: Solution {
         return 0
     }
 }
+
+func isPrime(_ number:Int) -> Bool {
+    if number == 2 {
+        return true
+    }
+    if number == 3 {
+        return true
+    }
+    if number % 2 == 0 {
+        return false
+    }
+
+    let squareRoot = Int(sqrt(Double(number)))
+
+    for i in 2...squareRoot {
+        if number % i == 0 {
+            return false
+        }
+    }
+    return true
+}
+
 
 
